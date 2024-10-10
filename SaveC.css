@@ -1,0 +1,129 @@
+/* General container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header section with image and overlay */
+  .header-container {
+    position: relative;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* Style for the overlay text on the main image */
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .overlay h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .overlay h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+  }
+  
+  /* Flexbox layout for content sections */
+  .content, .second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0;
+  }
+  
+  .text-content {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #444;
+  }
+  
+  .text-content p {
+    margin-bottom: 16px;
+  }
+  
+  .text-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #555;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Styling for the additional images */
+  .additional-image {
+    width: 35%;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Second section specific styles */
+  .second-section {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive adjustments for mobile devices */
+  @media (max-width: 768px) {
+    .content, .second-section {
+      flex-direction: column;
+    }
+  
+    .text-content, .additional-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .additional-image {
+      margin-left: 0;
+    }
+  }
+  
