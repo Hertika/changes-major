@@ -1,0 +1,219 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* About Container */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* About Content */
+.about-content {
+    padding: 20px;
+}
+
+/* Text and Video Section */
+.text-video-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-text h2 {
+    color: #4a4a4a;
+}
+
+.about-text p {
+    color: #666;
+}
+
+/* Video Section */
+.video-section {
+    flex: 1;
+}
+
+.video-section iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Centered Button */
+.centered-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.donate-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #e64a19;
+}
+
+/* Values Section */
+.values-section {
+    margin-bottom: 40px;
+}
+
+.values-section h2 {
+    color: #4a4a4a;
+}
+
+.values-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values-section ul li {
+    background: #e7f3fe;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Testimonial Section */
+.testimonial-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between content and image */
+    align-items: center; /* Center items vertically */
+}
+
+.testimonial-text {
+    flex: 1; /* Allow text to take remaining space */
+    padding-right: 20px; /* Add space between text and image */
+}
+
+.testimonial-image {
+    width: 25%; /* Decrease image size */
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.testimonial-image img {
+    width: 100%; /* Make image responsive */
+    border-radius: 8px; /* Optional: round corners of the image */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}
+
+.testimonial-quote {
+    font-style: italic;
+    color: #333;
+    font-size: 1.2em; /* Increase font size for emphasis */
+    margin-bottom: 10px; /* Space below the quote */
+}
+
+.testimonial-author {
+    text-align: left; /* Align author name to the left */
+    color: #666;
+    font-weight: bold; /* Make author name bold */
+    margin-top: 5px; /* Space above the author name */
+}
+
+
+/* Columns for Leadership, Partners, and Careers */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.section {
+    flex: 1;
+    background: #e7f3fe;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Resources Section */
+.resources {
+    margin-top: 40px;
+}
+
+.resource-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resource-item {
+    flex: 1;
+    background: #fff;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resource-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+.resource-item button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-left: 10%;
+    margin-left: 10%;
+}
+
+.resource-item button:hover {
+    background-color: #1976d2;
+    
+}
+
+.values-section p{
+    text-align: justify;
+}
+
+.value-section li{
+    text-align: justify;
+
+}
+
+
+
